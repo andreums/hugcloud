@@ -9,7 +9,7 @@ from google.cloud import firestore
 db = firestore.Client()
 
 # string resource_id = 1;   // identificador inmueble
-#  string resource_name = 2; // dirección del immueble
+#  string resource_name = 2; // direccion del immueble
 #  string category_id = 3;   // clase de inmueble
 #  string provider_id = 4;   // persona que ofrece el el inmueble en alquiler
 #  bool promotion = 5; 
